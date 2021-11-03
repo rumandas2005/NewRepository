@@ -6,7 +6,7 @@ public class Robot extends Actor
    int speed;
    int battery;
    String name;
-   
+   //SOME CODE!!!!!!!
    public Robot(int speed, int battery, String name) {
         
         this.speed=speed;
@@ -15,6 +15,9 @@ public class Robot extends Actor
        
         
      }
+   public void bob(){
+       System.out.println("HI");
+    }
 
       public void act() 
     {
