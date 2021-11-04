@@ -16,7 +16,7 @@ public class Robot extends Actor
         
      }
    public void bob(){
-       System.out.println("HI");
+       System.out.println("HELLO");
     }
 
       public void act() 
